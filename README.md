@@ -66,7 +66,7 @@ Ideas for activites can be:
 
 
 # Contact
-.
+Email us at - Worldopenheroines@gmail.com
 
 # Social media
 Hashtags #IODC18 #genderdata @openheroines
@@ -76,6 +76,4 @@ Hashtags #IODC18 #genderdata @openheroines
 * Contributions to the event are expected to be as openly licensed as possible, so as to encourage reuse. For details, see [LICENSE.md](https://github.com/sparcopen/open-research-doathon/blob/master/LICENSE.md).
 
 
-
-# See also
 
