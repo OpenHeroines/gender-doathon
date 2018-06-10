@@ -11,13 +11,17 @@ For the first time ever, Open Heroines will host a Doathon in the International 
 
 # Specifics
 
-|  Aim: hands-on with gender data | Here is the plan |
-| --- | --- |
-|    |
+## Aim: hands-on with gender data - Here is the plan:
+As part of the International Open Data Conference 2018, we will host a day of a doathon in Beunos Aires, Argentina. This repo will help to coordinate the activities for that day. 
+
+Focusing on open data and gender, we are looking to collaborate with projects that already looking on open data and gender, and help them to complete some tasks that will help them move forward in their progress and give them a stage to showcase their ideas. We will also be happy to collaborate with current open data projects that want to be more gender minded and inclusive, and will help them to build a strategy to include gedner and diveristy forwars. 
+
+We invite men, women, and gender non-binary people to join us. Whether you are a policy maker, researcher, coder, designer or just an enthusiast, we invite you to make, hack, contribute, try, teach, design, test, learn (or just about anything!). 
 
 # How it works
 
-We'll be using this GitHub repository for documenting and discussing ideas before, during, and after the event, both for remote participants and everyone else who is interested. We also have a [GOOGLE DOC]  As a remote participant, expect to be able to pitch and discuss your ideas for the weekend with all attendees. We'll be using [light orange](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Avirtual%20-label%3Ameta) labels for issues specific to remote attendance, and [light purple](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Aon-site%20-label%3Ameta) for on-site issues. Note that people in the room are welcome to use the online features as well.
+We'll be using this GitHub repository for documenting and discussing ideas before, during, and after the event, both for remote participants and everyone else who is interested. People can pitch ideas or projects they want to work on or need help with in this form 
+
 
 Check out the [yellow labels](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aidea%20-label%3Ameta) for hacky ideas to work on! Feel free to propose your own, even multiple ones: having more ideas may make it easier to find people to team up with. Conversely, feel free to have a go at any of these ideas, and let us &mdash; and their proposers &mdash; know how far you've come. There are [purple](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Ainterests%20-label%3Ameta) labels for attendees to say what their interests and skills are, which is especially useful if they are not yet involved with one of the proposed ideas.
 To present the ideas and to inform about other topics of interest, we'll be having lightning talks, which can be tracked via the [red](https://github.com/sparcopen/open-research-doathon/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Alightning-talks%20-label%3Ameta) labels.
