@@ -7,7 +7,7 @@
 | Add OIC | ADD PIC|
 
 # Background
-For the first time ever, Open Heroines will host a Doathon in the International Open Data Conference. A doathon is like a hackathon, but focused on doing rather on code. We will work on project and add a gender lens to them, or we will work on projects that are dealing with open data and gender. We will also create the fist Open Heroines Advocacy Field Guide for gender oerspectives. 
+For the first time ever, Open Heroines will host a Doathon in the International Open Data Conference. A doathon is like a hackathon, but focused on doing rather than code. We will work on open data projects that want to add a gender lens to them or on open data projects that already focus on gender. We will also create key documentation for the Open Heroines community. 
 
 # Specifics
 
