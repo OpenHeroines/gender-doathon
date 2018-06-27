@@ -32,14 +32,14 @@ You will find in the [issues tab](https://github.com/OpenHeroines/gender-doathon
 
 
 # Program
-10:00 - 10:30 - Welcome and intro to the day
-10:30 - 11:30 - Project match-making - Match between project and skills to increase collaboration and impact of open data and gender projects. This will be done by an open call to submit ideas and to pitch it to others during the day.
-11:30 - 1:00 - Doathon! Working in teams on the different tasks!
-1:00 - 2:00 - Lunch + Networking + Project Showcase
-2:00 - 4:00 - Doathon work!
-4:00 - 5:30 - Closing panel with discussion about how to take the doathon further. 
+* 10:00 - 10:30 - Welcome and intro to the day
+* 10:30 - 11:30 - Project match-making - Match between project and skills to increase collaboration and impact of open data and gender projects. This will be done by an open call to submit ideas and to pitch it to others during the day.
+* 11:30 - 1:00 - Doathon! Working in teams on the different tasks!
+* 1:00 - 2:00 - Lunch + Networking + Project Showcase
+* 2:00 - 4:00 - Doathon work!
+* 4:00 - 5:30 - Closing panel with discussion about how to take the doathon further. 
 
-7:00 - 9:00 - Reception! first hour is women only! Each women can invite one man is her +1 who can join from 8 pm onwards!
+* 7:00 - 9:00 - Reception! first hour is women only! Each women can invite one man is her +1 who can join from 8 pm onwards!
 
 
 # How to join remotely
