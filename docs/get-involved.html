@@ -1,110 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html dir="ltr" lang="en">
 
-<head>
-  <title></title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <meta charset="utf-8">
+    <title>Embedable OAB</title>
+  </head>
+  
+  <body>
 
-</head>
+    <input type="text" class="form-control" id="text" placeholder="Search Anything" value="" onkeydown="myFunc()">
 
-<body>
-  <div class="alert alert-success" role="alert">
-    Join us in Buenos Aires, Argentina 9/21! Sign up <a href="#" class="alert-link">here.</a>
-  </div>
-  <nav>
+    
+<table width=100%>
+ <thead>
+ <th><b>Action</b></th>
+ <th><b>Project Link</b></th>
+ </thead>
+ <tbody sheetsu="https://sheetsu.com/apis/v1.0/566ee981af4c" sheetsu-limit="20" sheetsu-ignore-case="true">
+ <tr>
+ <td><a href="{{github}}">{{text}}</a></td>
+ <td>{{project}}</td>
+ </tr>
+ </tbody>
+</table> 
+<script src="//load.sheetsu.com"></script>
 
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">FAQ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-
-    </ul>
-
-  </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h1 class="display-1">Gender Doathon </h1>
-        <p class="lead">
-          A doathon is like a hackathon, but focused on doing rather than code. We will work on open data projects that want to add a gender lens to them or on open data projects that already focus on gender.
-        </p>
-        <a href="https://openheroines.github.io/gender-doathon/get-involved.html" target=”_blank”><button type="button" class="btn btn-secondary btn-lg"> Find a project </button></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTD75eY8vBkdlUDrHDCQz0giR-4FjivDKPPwUOGFwETWLdgQ/viewform" target="_blank"> <button type="button" class="btn btn-secondary btn-lg">Submit a Project</button></a>
-
-      </div>
-
-      <div class="col">
-        IMAGE OF Doathon LOGO
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        Focusing on open data and gender, we are looking to collaborate with projects that already looking on open data and gender, and help them to complete some tasks that will help them move forward in their progress and give them a stage to showcase their
-        ideas. We will also be happy to collaborate with current open data projects that want to be more gender minded and inclusive, and will help them to build a strategy to include gender and diveristy forward.
-        <br><br> We invite men, women, and gender non-binary people to join us. Whether you are a policy maker, researcher, coder, designer or just an enthusiast, we invite you to make, hack, contribute, try, teach, design, test, learn (or just about
-        anything!).
-      </div>
-      <div class="col">
-        <h2>Project Ideas</h2>
-        <ul>
-          <li>Trying to find / reuse an open data set</li>
-          <li>Building engaging (and open) visualizations of open data and gender</li>
-          <li>Building a software library (Python module/ R package/ Ruby gem etc.)</li>
-          <li>A data-centric walk around the neighbourhood</li>
-        </ul>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTD75eY8vBkdlUDrHDCQz0giR-4FjivDKPPwUOGFwETWLdgQ/viewform" target="_blank"> <button type="button" class="btn btn-secondary btn-sm">Submit a Project</button></a>
-
-      </div>
-
-    </div>
-    <div class="row">
-  <div class="col-3">
-    <img src="assets/OH_small_logo.png" alt="">
-    <h2 class="display-">Open Heroines
-</h2>
-  <p class="card-subtitle"></p>Voices of women working in open government, open data and civic tech.
-    <button type="button" class="btn btn-outline-secondary btn-block">Join Our Community!</button>
-  </div>
-  <div class="col-3">
-</div>
-  <div class="col">
-    <h3>FAQs</h3>
-<details>
-  <summary>
-    What if I can't attend in-person?
-  </summary>
-  <p>You can join remotely!</p>
-</details>
-<details>
-  <summary>
-    What if I can't attend in-person?
-  </summary>
-  <p>You can join remotely!</p>
-</details>  <details>
-  <summary>
-    What if I can't attend in-person?
-  </summary>
-  <p>You can join remotely!</p>
-</details>
-</div>
-</div>
-</div>
-  </div>
-</div>
-
-  <footer>
-    <ul>
-      <li><a href="">twitter</a></li>
-      <li><a href=""></a></li>
-    </ul>
-  </footer>
 </body>
+  
+  
+  <script type="text/javascript">
+                  var myFunc = debounce(function () {
+                    textValue = textValue();
+                    addSearchValue({ text: "*" + textValue + "*" });
+                    resetTableBody();
+                    triggerNewSearch();
 
+                  }, 400);
+
+
+                  function textValue() {
+                    return document.getElementById("text").value;
+                  }
+
+                  function tableElement() {
+                    return document.querySelector("tbody[sheetsu]");
+                  }
+
+                  function resetTableBody() {
+                    document.querySelector("tbody[sheetsu]").innerHTML = tableRow();
+                  }
+
+                  function addSearchValue(searchValue) {
+                    tableElement().setAttribute("sheetsu-search", JSON.stringify(searchValue));
+                  }
+
+                  function triggerNewSearch() {
+                    var element = document.querySelector("tbody[sheetsu]");
+                    (new ChangeGetElement(element)).call();
+                  }
+
+                  function tableRow() {
+                    return '<tr><td><a href="{{github}}">{{text}}</a></td><td>{{project}}</td></tr>';
+                  }
+
+                  function debounce(func, wait, immediate) {
+                    var timeout;
+                    return function() {
+                      var context = this, args = arguments;
+                      var later = function() {
+                        timeout = null;
+                        if (!immediate) func.apply(context, args);
+                      };
+                      var callNow = immediate && !timeout;
+                      clearTimeout(timeout);
+                      timeout = setTimeout(later, wait);
+                      if (callNow) func.apply(context, args);
+                    };
+                  };
+
+                </script>
+  
+  
+  
+  
+  
 </html>
