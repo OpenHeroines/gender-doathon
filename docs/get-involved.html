@@ -5,7 +5,7 @@
 <head>
   <title></title>
   <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <style>
   body {
@@ -16,9 +16,20 @@
       width: 100%;
       height: auto;
   }
-  h1, h2, p, div{
+  h1, h2, p{
     font-family: 'Rubik Mono One', sans-serif;
 
+  }
+  div.alert, p.text, li {
+    font-family: 'Rubik', sans-serif;
+  }
+  .row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  div.dark{
+    background-color: purple:
   }
   </style>
 </head>
@@ -37,8 +48,9 @@
     <div class="row">
       <div class="col">
         <h1 class="display-1">Gender Doathon </h1>
-        <div class="alert alert-dark" role="alert">
-          Join us in Buenos Aires, Argentina 9/21 during the International Open Data Conference! Sign up <a href="#" class="alert-link">here.</a>
+        <div class="dark">
+        September 25, 2018 | Buenos Aires, Argentina | #IODC18
+        <!-- ! Sign up <a href="#" class="alert-link">here.</a> -->
         </div>
             </div>
       <div class="col">
@@ -59,7 +71,6 @@
           <li>Build a software library (e.g. Python module / R package)</li>
           <li>Conduct a data-centric walk around the neighbourhood</li>
         </ul>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTD75eY8vBkdlUDrHDCQz0giR-4FjivDKPPwUOGFwETWLdgQ/viewform" target="_blank"> <button type="button" class="btn btn-secondary btn-sm">Submit a Project</button></a>
             </div>
 
     </div>
@@ -69,9 +80,10 @@
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTD75eY8vBkdlUDrHDCQz0giR-4FjivDKPPwUOGFwETWLdgQ/viewform" target="_blank"> <button type="button" class="btn btn-secondary btn-lg">Submit a Project</button></a>
       </div>
     </div>
+    <hr>
     <div class="row">
       <div class="col">
-        <p>
+        <p class= "text">
           Focusing on open data and gender, we are looking to collaborate with projects that already looking on open data and gender, and help them to complete some tasks that will help them move forward in their progress and give them a stage to showcase their
         ideas. We will also be happy to collaborate with current open data projects that want to be more gender minded and inclusive, and will help them to build a strategy to include gender and diveristy forward.
         <br><br> We invite men, women, and gender non-binary people to join us. Whether you are a policy maker, researcher, coder, designer or just an enthusiast, we invite you to make, hack, contribute, try, teach, design, test, learn (or just about
